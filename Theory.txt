@@ -1,0 +1,24 @@
+ -->>>  
+In digital imaging, a pixel(or picture element) is the smallest item of information in an image.
+ Pixels are arranged in a 2-dimensional grid, represented using squares. Each pixel is a sample of an original image,
+ where more samples typically provide more-accurate representations of the original. 
+The intensity of each pixel is variable; in color systems, each pixel has typically three or four
+ components such as red, green, and blue, or cyan, magenta, yellow, and black.
+The word pixel is based on a contraction of pix ("pictures") and el (for "element").
+
+-->>
+ Q. What is DPI / PPI?
+  :- DPI refers to dots per inch when using an ink based printer. It is a measure of resolution or image quality.
+    Typically, the higher the dpi count, the better the print quality. This term is still used when discussing digital image quality; 
+   however, this is not the correct term.\par
+     PPI describes the resolution, in pixels, of an image to be printed within a specified space. For instance, a 100x100-pixel image 
+   that is printed in a 1-inch square could be said to have 100 pixels per inch, regardless of the printer's DPI capability. Used in this
+ way, the measurement is only meaningful when printing an image. 
+     Good quality photographs usually require 300 pixels per inch when printed.
+
+
+-->>>
+ Q. What is an Image ?
+    :- When we combine mutiple pixels with each other and collection of all these pixels is consider as image. 
+       In python image is store in an 2d array. And array exists in Numpy.
+
